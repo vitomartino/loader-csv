@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loader CSV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Dataloader - Criações IGA</title>
 </head>
+
 <body>
-    
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Insira as informações</h1>
+            
+                <input type="text" placeholder="RACF">
+
+                <label for="objeto">Escolha o Objeto</label>
+                <select id="objeto" name="objeto">
+                    <option value="veiculo">Veiculo</option>
+                    <option value="retomada">Retomada</option>
+                </select>
+
+                <label for="Empresa">Empresa</label>
+                <select id="empresas" name="empresas">
+                    <option value="portoSeguro">Porto Seguro</option>
+                    <option value="recovery">Recovery</option>
+                </select>
+
+                <button>Prosseguir</button>
+            </form>
+        </div>
+
+
+        <div class="form-container sign-in">
+
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <button class="hidden" id="login">Voltar</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Dataloader - Criações IGA</h1>
+                    <button class="hidden" id="inserir">Inserir</button>
+                    <button class="hidden" id="">Consultar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
