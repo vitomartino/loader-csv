@@ -184,3 +184,12 @@ body{
 .container.active .toggle-right{
     transform: translateX(200%);
 }
+
+.toggle-cancelar{
+    right: 0;
+    transform: translateX(0);
+}
+
+.container.active .toggle-cancelar{
+    transform: translateX(200%);
+}
